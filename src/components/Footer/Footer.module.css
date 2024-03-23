@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 290px;
+}
+
+.h3 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #211f54;
+}
+
+.h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #211f54;
+}
+.h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #211f54;
+}
+.h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #0075FF;
+}
+
+.p {
+  font-size: 19px;
+  color: #6e7191;
+}

@@ -1,0 +1,37 @@
+.hero {
+  display: flex;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+}
+.right {
+  object-fit: contain;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+.h2 {
+  font-size: 68px;
+  color: #211f54;
+  font-weight: 700;
+  line-height: 109%;
+}
+.h5{
+  font-weight: 700;
+  font-size: 28px;
+}
+.p {
+  font-size: 19px;
+  color: #6e7191;
+}
+.phone{
+  display: flex;
+  align-items: center;
+}
+.phone-icon{
+height: 72px;
+}
