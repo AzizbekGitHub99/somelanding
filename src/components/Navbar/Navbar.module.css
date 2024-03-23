@@ -1,31 +1,37 @@
-#Navbar{
-height: 110px;
+#Navbar {
+  height: 110px;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 2px 20px gray;
+  width: 100%;
+  margin-bottom: .1px;
+  z-index: 10;
 }
-.nav{
+.nav {
   display: flex;
   height: 100%;
   align-items: center;
 }
-.logo{
-margin-right: 40px;
+.logo {
+  margin-right: 40px;
 }
-.menu{
-display: flex;
-gap: 22px;
-margin-right: auto;
+.menu {
+  display: flex;
+  gap: 22px;
+  margin-right: auto;
 }
-.li{
-list-style: none;
+.li {
+  list-style: none;
 }
-.a{
-text-decoration: none;
-color: #211F54;
+.a {
+  text-decoration: none;
+  color: #211f54;
 }
-.nav-end{
+.nav-end {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.cart{
-  color: #211F54;  
+.cart {
+  color: #211f54;
 }
